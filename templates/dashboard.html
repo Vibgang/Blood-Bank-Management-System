@@ -1,0 +1,21 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<div class="jumbotron"style="background-color:#f7f7f7;">
+<h1>Welcome {{session.e_id}}</small> </h1>
+<hr class="my-4">
+<table class="table table-striped">
+  <tr>
+    <th>Blood Groups</th>
+    <th>Volume (units)</th>
+  </tr>
+  {% for detail in details %}
+    <tr>
+      <td>{{detail.B_GROUP}}</td>
+      <td>{{detail.TOTAL_PACKETS}}</td>
+    </tr>
+  {% endfor %}
+</table>
+</div>
+
+{% endblock %}

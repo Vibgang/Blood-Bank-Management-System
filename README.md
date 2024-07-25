@@ -1,5 +1,3 @@
-# Information Management System For A Blood Bank
-Report Link: https://docs.google.com/document/d/1MZrnwYzGbihhWo9OdPqnqgWM3_yf3t5LY6qA_63C_xY/edit?usp=sharing
 ## Flask Commands:
 Install Dependencies:
 ```
@@ -43,23 +41,3 @@ Use any database:
 ```
 USE bloodbank;
 ```
-
-## Snapshots
-### Home Page
-![](snapshots/home.png)
-### Contact Us
-![](snapshots/contact.png)
-### Register
-![](snapshots/register.png)
-### Login
-![](snapshots/login.png)
-### Dashboard
-![](snapshots/dashboard.png)
-### Add Donor
-![](snapshots/donate.png)
-### Donor Logs
-![](snapshots/logs.png)
-### Donor Blood Details
-![](snapshots/details.png)
-### Blood Requests
-![](snapshots/requests.png)
